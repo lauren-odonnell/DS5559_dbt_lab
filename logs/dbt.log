@@ -1,0 +1,47 @@
+
+
+============================== 2023-04-23 11:22:45.271450 | 0a3eba7a-9864-42bf-8674-d2236ff62d22 ==============================
+[0m11:22:45.271450 [info ] [MainThread]: Running with dbt=1.4.6
+[0m11:22:45.272506 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/laurenodonnell/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'project_name': 'first_project', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m11:22:45.272634 [debug] [MainThread]: Tracking: tracking
+[0m11:22:45.297101 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa820533df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa841826ee0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa82054ffa0>]}
+[0m11:22:45.299066 [debug] [MainThread]: Starter project path: /Users/laurenodonnell/opt/anaconda3/lib/python3.9/site-packages/dbt/include/starter_project
+[0m11:25:00.484449 [info ] [MainThread]: Profile first_project written to /Users/laurenodonnell/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m11:25:00.485148 [info ] [MainThread]: 
+Your new dbt project "first_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m11:25:00.485481 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa841826ee0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa8312a9e50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa84244be50>]}
+[0m11:25:00.485729 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2023-04-23 11:31:37.699245 | cb2e66c0-8ccb-4187-adec-fb835628f36a ==============================
+[0m11:31:37.699245 [info ] [MainThread]: Running with dbt=1.4.6
+[0m11:31:37.700430 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/laurenodonnell/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'project_name': 'first_project', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m11:31:37.700556 [debug] [MainThread]: Tracking: tracking
+[0m11:31:37.722223 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbc005a30a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbc005be400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbc005be100>]}
+[0m11:31:37.723990 [info ] [MainThread]: A project called first_project already exists here.
+[0m11:31:37.724284 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbc005a30a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbc005be8e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbc005be100>]}
+[0m11:31:37.724459 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2023-04-26 00:55:50.485930 | 2ec0b576-ea44-4830-a4f7-43087a67e575 ==============================
+[0m00:55:50.485930 [info ] [MainThread]: Running with dbt=1.4.6
+[0m00:55:50.488788 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/laurenodonnell/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'project_name': 'first_project', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m00:55:50.495474 [debug] [MainThread]: Tracking: tracking
+[0m00:55:50.526444 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fced8e9aa60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fced8ec3160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fced8e930a0>]}
+[0m00:55:50.528475 [info ] [MainThread]: A project called first_project already exists here.
+[0m00:55:50.528797 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fced8e93250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fced8e93100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fced8ec3a60>]}
+[0m00:55:50.528995 [debug] [MainThread]: Flushing usage events
